@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@1.4.13
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 verbose linkPkg /Users/cjdd3b/apps/generator-app-chase/app/templates
+6 error Error: ENOENT, open '/Users/cjdd3b/apps/generator-app-chase/app/templates/package.json'
+7 error If you need help, you may report this *entire* log,
+7 error including the npm and node versions, at:
+7 error     <http://github.com/npm/npm/issues>
+8 error System Darwin 13.3.0
+9 error command "node" "/usr/local/bin/npm" "link"
+10 error cwd /Users/cjdd3b/apps/generator-app-chase/app/templates
+11 error node -v v0.10.28
+12 error npm -v 1.4.13
+13 error path /Users/cjdd3b/apps/generator-app-chase/app/templates/package.json
+14 error code ENOENT
+15 error errno 34
+16 verbose exit [ 34, true ]
